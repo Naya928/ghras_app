@@ -1,0 +1,27 @@
+name: ghras_app
+description: "A new Flutter project."
+publish_to: "none" # يمنع نشر الحزمة بالخطأ على pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0 # حزمة الخطوط
+  cupertino_icons: ^1.0.6 # أيقونات نظام iOS
+  path_provider: ^2.1.3 # حزمة إدارة وحفظ الملفات والبيانات الداخلية (محدثة ومستقرة)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # إذا أردتِ إضافة صور (Assets) مستقبلاً، يمكنكِ تفعيل الأسطر بالأسفل بحذف علامة (#)
+  # assets:
+  #   - assets/images/
