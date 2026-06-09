@@ -23,7 +23,7 @@ class GhrasApp extends StatelessWidget {
         // تخصيص الأزرار ليكون لها زوايا دائرية ناعمة كما اتفقنا
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
-            backgroundColor: AppColors.primary,
+            backgroundColor: const Color.fromARGB(255, 89, 106, 45),
             foregroundColor: AppColors.surface,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12),
