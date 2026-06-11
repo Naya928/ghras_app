@@ -33,4 +33,7 @@ class ReadingProgress extends HiveObject {
   int get availableSeedlings => earnedSeedlings - placedSeedlings;
   int get availableFlowers   => earnedFlowers   - placedFlowers;
   int get availableTrees     => earnedTrees     - placedTrees;
+
+  // القطع المكتسبة (كل 15 صفحة = قطعة)
+  int get earnedPieces => pagesRead ~/ 15;
 }

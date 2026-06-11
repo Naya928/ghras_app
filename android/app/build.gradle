@@ -27,9 +27,9 @@ android {
     namespace = "com.example.ghras_app"
     
     // قمنا بتغييرها هنا مباشرة لتفادي تعارض الحزم القديمة
-    compileSdk = 34
-    ndkVersion = flutter.ndkVersion
-
+    compileSdk = 35    
+    ndkVersion = "25.1.8937393"
+    
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17

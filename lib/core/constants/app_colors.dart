@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // الألوان الرئيسية لـ غراس
-  static const Color primary = Color(0xFF2D6A4F); // الأخضر العميق
-  static const Color secondary = Color(0xFF52B788); // الأخضر الحيوي
-  static const Color lightGreen = Color(0xFFD8F3DC); // الأخضر الفاتح للبطاقات
+  // الألوان الجديدة
+  static const Color background = Color(0xFFF5F0E8); // كريمي فاتح
+  static const Color primary = Color(0xFFE8A0A0);    // وردي/كورال
+  static const Color secondary = Color(0xFFD4A853);  // ذهبي
+  static const Color surface = Color(0xFFFFFFFF);    // أبيض
 
-  // الخلفيات والنصوص
-  static const Color background = Color(0xFFF8F9FA); // خلفية التطبيق
-  static const Color surface = Color(0xFFFFFFFF); // خلفية البطاقات
-  static const Color textMain = Color(0xFF1A1A1A); // النص الأساسي
-  static const Color textMuted = Color(0xFF757575); // النصوص الثانوية
+  // النصوص
+  static const Color textMain = Color(0xFF3D2B1F);   // بني داكن
+  static const Color textMuted = Color(0xFF9E8E7E);  // بني فاتح
+
+  // الألوان القديمة (نبقيها لو في مكان يستخدمها)
+  static const Color lightGreen = Color(0xFFD8F3DC);
 }
